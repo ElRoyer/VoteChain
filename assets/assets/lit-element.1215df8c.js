@@ -1,5 +1,0 @@
-import{d as s}from"./@lit.7976db5b.js";import{B as d,T as a}from"./lit-html.c373ec5d.js";/**
- * @license
- * Copyright 2017 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */var l,o;class n extends s{constructor(){super(...arguments),this.renderOptions={host:this},this._$Do=void 0}createRenderRoot(){var e,t;const i=super.createRenderRoot();return(e=(t=this.renderOptions).renderBefore)!==null&&e!==void 0||(t.renderBefore=i.firstChild),i}update(e){const t=this.render();this.hasUpdated||(this.renderOptions.isConnected=this.isConnected),super.update(e),this._$Do=d(t,this.renderRoot,this.renderOptions)}connectedCallback(){var e;super.connectedCallback(),(e=this._$Do)===null||e===void 0||e.setConnected(!0)}disconnectedCallback(){var e;super.disconnectedCallback(),(e=this._$Do)===null||e===void 0||e.setConnected(!1)}render(){return a}}n.finalized=!0,n._$litElement$=!0,(l=globalThis.litElementHydrateSupport)===null||l===void 0||l.call(globalThis,{LitElement:n});const r=globalThis.litElementPolyfillSupport;r==null||r({LitElement:n});((o=globalThis.litElementVersions)!==null&&o!==void 0?o:globalThis.litElementVersions=[]).push("3.3.2");
